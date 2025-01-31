@@ -1,0 +1,23 @@
+.user-auth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.user-auth h2{
+    display: flex;
+    justify-content: center;
+}
+
+.Login span{
+    cursor: pointer;
+    color: blue;
+}
+.sign-up span{
+    cursor: pointer;
+    color: blue;
+}
+.form-button:disabled{
+    cursor: not-allowed;
+}

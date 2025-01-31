@@ -1,0 +1,15 @@
+.checkout h1{
+   display: flex;
+   justify-content: center;
+
+}
+.cartDetail{
+    display: flex;
+    justify-content: center;
+}
+.sub-Cartdetail1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,6 @@
+.form-input{
+    color: red;
+}
+.LoginUpseller:disabled{
+    cursor :not-allowed;
+}

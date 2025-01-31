@@ -1,0 +1,45 @@
+
+
+.cart-page h1{
+   display: flex;
+   justify-content: center;
+  margin: 30px;
+ 
+}
+.details{
+    border: 1px solid #ddd;
+}
+.details img{
+    height: 100px;
+    padding-top: 20px;
+  
+  
+}
+.details ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.summary ul{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 10px;
+
+    
+}
+.summary h1{
+    display: flex;
+    justify-content: center;
+}
+.summary ul li{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.max-width{
+    width: 100%;
+}

@@ -1,0 +1,117 @@
+{
+  "seller": [
+    {
+      "id": "ed3d",
+      "name": "hemant kamthe",
+      "mail": "hkamthe6@gmail.com",
+      "pass": "1233"
+    },
+    {
+      "id": "35a0",
+      "name": "hemant kamthe",
+      "mail": "max@1234",
+      "pass": "1234"
+    },
+    {
+      "id": "2da9",
+      "name": "hemant kamthe",
+      "mail": "hkamthe6@gmail.com",
+      "pass": "1233"
+    },
+    {
+      "id": "8eb3",
+      "name": "hemant kamthe",
+      "mail": "hkamthe6@gmail.com",
+      "pass": "1244"
+    },
+    {
+      "id": "be37",
+      "name": "manisha",
+      "mail": "manisha49@gmail.com",
+      "pass": "4980"
+    }
+  ],
+  "product": [
+    {
+      "name": "Realme",
+      "price": "2000",
+      "category": "android",
+      "description": "Realme mobile",
+      "color": "white",
+      "image": "https://images.pexels.com/photos/26616520/pexels-photo-26616520/free-photo-of-hand-of-a-man-holding-a-smartphone.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": "dec9"
+    },
+    {
+      "name": "iphone",
+      "price": "20000",
+      "category": "ios",
+      "description": "Iphone phone",
+      "color": "black",
+      "image": "https://img.freepik.com/free-vector/realistic-smartphone-device_52683-29765.jpg?ga=GA1.1.724890165.1736949465&semt=ais_tags_boosted",
+      "id": "56ba"
+    },
+    {
+      "name": "iphone",
+      "price": "40000",
+      "category": "vivo",
+      "description": "vivo mobile",
+      "color": "pink",
+      "image": "https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": "11f6"
+    },
+    {
+      "name": "vivo",
+      "price": "2000",
+      "category": "Smart Wearebles",
+      "description": "Boat Smart  Watch",
+      "color": "blue",
+      "image": "https://images.pexels.com/photos/24181865/pexels-photo-24181865/free-photo-of-five-smartphones-on-a-gray-background.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": "cb02"
+    }
+  ],
+  "user": [
+    {
+      "id": "fc1b",
+      "name": "hemant kamthe",
+      "email": "hkamthe6@gmail.com",
+      "pass": "1233"
+    },
+    {
+      "id": "9d0b",
+      "name": "manisha",
+      "email": "mansiha",
+      "pass": ""
+    },
+    {
+      "id": "a36b",
+      "name": "manisha",
+      "email": "mansiha8@1234",
+      "pass": "1234"
+    },
+    {
+      "id": "8806",
+      "name": "demo",
+      "email": "demo@1234",
+      "pass": "1234"
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "id": "7dda",
+      "email": "hkamthe6@gmail.com",
+      "address": "Tal-purandhar dist-pune",
+      "details": "hk",
+      "totalPrice": 20000,
+      "userId": "fc1b"
+    },
+    {
+      "id": "78e3",
+      "email": "hkamthe6@gmail.com",
+      "address": "Tal-purandhar dist-pune",
+      "details": "hk",
+      "totalPrice": 20000,
+      "userId": "fc1b"
+    }
+  ]
+}

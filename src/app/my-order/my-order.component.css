@@ -1,0 +1,9 @@
+.order-img{
+    object-fit: fit;
+    height: 80px;
+}
+.row{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}

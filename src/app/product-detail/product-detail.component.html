@@ -1,0 +1,25 @@
+<div class="row productDetail" *ngIf="productData">
+    <div class="col-sm-6">
+        <a routerLink="/details/productId"><img class="product-details-img" src="{{productData.image}}" alt=""></a>
+
+    </div>
+    <div class="col-sm-6">
+        <div class="details">
+            <h1>Name:{{productData.name}}</h1>
+            <h2>Price:{{productData.price}}</h2>
+      <div> <h2>Color:</h2><h2 [style.backgroundColor]="productData.color" class="product"></h2></div>
+            <h4>Category:{{productData.category}}</h4>
+            <h4>Description:{{productData.description}}</h4>
+            <button  class="btn1">Buy Now</button>
+            <button *ngIf="removeCart" class="btn2" (click)="removeToCart(productData.id)">Remove to cart</button>
+            <button *ngIf="!removeCart" class="btn2" (click)="addToCart()">Add to cart</button>
+           
+            <div class="quantity-group">
+                <button (click)="productClick('plus')">+</button>
+                <input type="text" value="{{productQuantity}}">
+                <button (click)="productClick('minus')">-</button>
+            </div>
+        </div>
+    </div>
+
+</div>

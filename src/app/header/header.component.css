@@ -1,0 +1,44 @@
+.nav ul li a{
+  cursor: pointer;
+  color: blue;
+
+}
+
+.logout-link {
+    color:black;
+    cursor: pointer;
+    text-decoration: underline;
+  
+}
+
+
+
+.suggested-result {
+  position: absolute;
+  top: 50px;
+  z-index: 10;
+  border: 1px solid #f4f2f2; /* Main container border */
+  background: #f4f2f2;
+  width: 300px;
+  margin-left: 0;
+  list-style: none !important; /* Removes default bullet points */
+  padding: 0; /* Ensures no extra space around the list */
+}
+
+.suggested-result li {
+
+  padding: 8px; /* Adds spacing inside the list item */
+}
+
+
+
+.suggested-result li a {
+  cursor: pointer;
+  color: violet;
+  text-decoration: none; /* Optional: removes underline */
+}
+
+.suggested-result li:hover {
+  background-color: #e0e0e0; /* Optional: adds hover effect */
+}
+
